@@ -1,0 +1,22 @@
+
+
+modLoader="javafml" #mandatory
+
+
+license="Public Domain"
+loaderVersion="*"
+
+[[mods]] #mandatory
+
+# The modid of the mod
+modId="novadragons" #mandatory
+
+version="0" #mandatory
+
+displayName="NovaDragons" #mandatory
+
+authors="Kesselot,Asbestosstar" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''This is a mod version of NovaDragons'''
+
