@@ -119,6 +119,10 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
+    
+    maven {
+        url "https://api.modrinth.com/maven"
+    }
 
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
@@ -130,32 +134,27 @@ repositories {
 }
 
 dependencies {
-    // Specify the version of Minecraft to use.
-    // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
-    // The "userdev" classifier will be requested and setup by ForgeGradle.
-    // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
-    // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Real mod deobf dependency examples - these get remapped to your current mappings
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
-    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
+    // Geckolib for 1.18.2 usually has the MC version in the string
+    implementation fg.deobf("maven.modrinth:geckolib:3.0.57") 
+    
+    // Isle of Berk 1.2.0 for 1.18.2 has a specific slug and version format
+    implementation fg.deobf("maven.modrinth:isle-of-berk:1.2.0")
 
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
+    implementation fg.deobf("maven.modrinth:isle-of-berk-addons:1.1d")
+    
+    implementation fg.deobf("curse.maven:isle-of-berk-variant-loader-908401:7038341")
 
-
-
-implementation fg.deobf("curse.maven:archipelago-additions-1240104:7084360")
+    implementation fg.deobf("curse.maven:archipelago-additions-1240104:7084360")
 
 
 
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+
+
+
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
