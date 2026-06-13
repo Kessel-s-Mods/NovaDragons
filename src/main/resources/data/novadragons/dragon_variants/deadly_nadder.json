@@ -1,0 +1,16 @@
+{
+  "variants": [
+    {
+      "name": "tropical_reef",
+      "weight": 10000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:beach"
+        ],
+        "tag": [
+          "archipelagoadditions:deadly_nadder_spawns"
+        ]
+      }
+    }
+  ]
+}

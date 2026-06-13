@@ -1,0 +1,16 @@
+{
+  "variants": [
+    {
+      "name": "cataclysm",
+      "weight": 5000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:eroded_badlands"
+        ],
+        "tag": [
+          "archipelagoadditions:sentinel_spawns"
+        ]
+      }
+    }
+  ]
+}

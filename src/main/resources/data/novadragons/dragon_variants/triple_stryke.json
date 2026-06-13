@@ -1,0 +1,16 @@
+{
+  "variants": [
+    {
+      "name": "singularity",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:jagged_peaks"
+        ],
+        "tag": [
+          "archipelagoadditions:triple_stryke_spawns"
+        ]
+      }
+    }
+  ]
+}

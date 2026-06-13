@@ -11,7 +11,7 @@ loaderVersion="*"
 # The modid of the mod
 modId="novadragons" #mandatory
 
-version="0" #mandatory
+version="1" #mandatory
 
 displayName="NovaDragons" #mandatory
 

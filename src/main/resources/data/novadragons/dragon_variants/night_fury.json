@@ -1,0 +1,64 @@
+{
+  "variants": [
+    {
+      "name": "aurorae",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:snowy_plains"
+        ],
+        "tag": [
+          "archipelagoadditions:songwing_spawns"
+        ]
+      }
+    },
+    {
+      "name": "celestial",
+      "weight": 1000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:stony_peaks"
+        ],
+        "tag": [
+          "archipelagoadditions:woolly_howl_spawns"
+        ]
+      }
+    },
+    {
+      "name": "aetherion",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:meadow"
+        ],
+        "tag": [
+          "archipelagoadditions:night_fury_spawns"
+        ]
+      }
+    },
+    {
+      "name": "serenyx",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:meadow"
+        ],
+        "tag": [
+          "archipelagoadditions:night_fury_spawns"
+        ]
+      }
+    },
+    {
+      "name": "tide_runner",
+      "weight": 5000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:beach"
+        ],
+        "tag": [
+          "archipelagoadditions:night_fury_spawns"
+        ]
+      }
+    }
+  ]
+}

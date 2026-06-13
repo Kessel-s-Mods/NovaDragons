@@ -1,0 +1,40 @@
+{
+  "variants": [
+    {
+      "name": "astrella",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:meadow"
+        ],
+        "tag": [
+          "archipelagoadditions:light_fury_spawns"
+        ]
+      }
+    },
+    {
+      "name": "floral_petal",
+      "weight": 5000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:meadow"
+        ],
+        "tag": [
+          "archipelagoadditions:light_fury_spawns"
+        ]
+      }
+    },
+    {
+      "name": "luminara",
+      "weight": 3000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:meadow"
+        ],
+        "tag": [
+          "archipelagoadditions:light_fury_spawns"
+        ]
+      }
+    }
+  ]
+}

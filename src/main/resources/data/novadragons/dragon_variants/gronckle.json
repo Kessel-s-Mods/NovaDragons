@@ -1,0 +1,28 @@
+{
+  "variants": [
+    {
+      "name": "coral_splash",
+      "weight": 10000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:stony_shore"
+        ],
+        "tag": [
+          "archipelagoadditions:gronckle_spawns"
+        ]
+      }
+    },
+    {
+      "name": "seashell_splash",
+      "weight": 10000,
+      "allowed_biomes": {
+        "biome": [
+          "minecraft:stony_shore"
+        ],
+        "tag": [
+          "archipelagoadditions:gronckle_spawns"
+        ]
+      }
+    }
+  ]
+}
