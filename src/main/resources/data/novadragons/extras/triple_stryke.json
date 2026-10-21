@@ -1,0 +1,10 @@
+{
+  "extras": [
+    {
+      "name": "singularity",
+      "variant_group": "triple_stryke",
+      "taming_items": { "tag": ["archipelagoadditions:triple_stryke_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:triple_stryke_breeding_food"] }
+    }
+  ]
+}

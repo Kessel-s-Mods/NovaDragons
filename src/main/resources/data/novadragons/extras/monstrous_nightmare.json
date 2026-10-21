@@ -1,0 +1,17 @@
+{
+  "extras": [
+    {
+      "name": "cataclysm",
+      "variant_group": "sentinel",
+      "taming_items": { "tag": ["archipelagoadditions:sentinel_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:sentinel_breeding_food"] },
+      "loot_table_redirect": "archipelagoadditions:drops/sentinel_loot",
+      "attribute_modifiers": [
+        { "id": "minecraft:generic.armor", "amount": 9, "operation": "ADDITION" },
+        { "id": "minecraft:generic.attack_damage", "amount": -1, "operation": "ADDITION" },
+        { "id": "minecraft:generic.movement_speed", "amount": -0.05, "operation": "ADDITION" },
+        { "id": "minecraft:generic.flying_speed", "amount": -0.04, "operation": "ADDITION" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "extras": [
+    {
+      "name": "tropical_reef",
+      "variant_group": "deadly_nadder",
+      "taming_items": { "tag": ["archipelagoadditions:deadly_nadder_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:deadly_nadder_breeding_food"] }
+    }
+  ]
+}

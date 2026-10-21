@@ -1,0 +1,16 @@
+{
+  "extras": [
+    {
+      "name": "coral_splash",
+      "variant_group": "gronckle",
+      "taming_items": { "tag": ["archipelagoadditions:gronckle_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:gronckle_breeding_food"] }
+    },
+    {
+      "name": "seashell_splash",
+      "variant_group": "gronckle",
+      "taming_items": { "tag": ["archipelagoadditions:gronckle_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:gronckle_breeding_food"] }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "extras": [
+    {
+      "name": "aurorae",
+      "variant_group": "songwing",
+      "taming_items": { "tag": ["archipelagoadditions:songwing_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:songwing_breeding_food"] },
+      "loot_table_redirect": "archipelagoadditions:drops/songwing_loot",
+      "attribute_modifiers": [
+        { "id": "minecraft:generic.max_health", "amount": 10, "operation": "ADDITION" },
+        { "id": "minecraft:generic.flying_speed", "amount": -0.02, "operation": "ADDITION" }
+      ]
+    },
+    {
+      "name": "celestial",
+      "variant_group": "woolly_howl",
+      "taming_items": { "tag": ["archipelagoadditions:woolly_howl_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:woolly_howl_breeding_food"] },
+      "loot_table_redirect": "archipelagoadditions:drops/woolly_howl_loot",
+      "attribute_modifiers": [
+        { "id": "minecraft:generic.armor", "amount": 3, "operation": "ADDITION" },
+        { "id": "minecraft:generic.max_health", "amount": 10, "operation": "ADDITION" },
+        { "id": "minecraft:generic.flying_speed", "amount": -0.02, "operation": "ADDITION" }
+      ]
+    },
+    {
+      "name": "aetherion",
+      "variant_group": "night_fury",
+      "taming_items": { "tag": ["archipelagoadditions:night_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:night_fury_breeding_food"] }
+    },
+    {
+      "name": "serenyx",
+      "variant_group": "night_fury",
+      "taming_items": { "tag": ["archipelagoadditions:night_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:night_fury_breeding_food"] }
+    },
+    {
+      "name": "tide_runner",
+      "variant_group": "night_fury",
+      "taming_items": { "tag": ["archipelagoadditions:night_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:night_fury_breeding_food"] }
+    }
+  ]
+}

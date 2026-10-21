@@ -1,0 +1,18 @@
+{
+  "redirects": [
+    {
+      "name": "cataclysm",
+      "texture": "novadragons:textures/dragons/sentinel/cataclysm.png",
+      "saddle": "archipelagoadditions:textures/dragons/sentinel/sentinel_saddle.png",
+      "model": "archipelagoadditions:geo/sentinel.geo.json",
+      "animation": "archipelagoadditions:animations/sentinel.animation.json",
+      "egg_item_name": "entity.iobvariantloader.egg.nightmare.sentinel",
+      "egg_name": "entity.iobvariantloader.egg.nightmare.sentinel",
+      "dragon_name": "entity.iobvariantloader.monstrous_nightmare.sentinel",
+      "egg_texture": "archipelagoadditions:textures/dragons/sentinel/sentinel_egg.png",
+      "egg_model": "archipelagoadditions:geo/large_round_egg_model.geo.json",
+      "egg_item_model": "archipelagoadditions:sentinel_egg",
+      "nametag_accessible": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "redirects": [
+    {
+      "name": "aurorae",
+      "model": "archipelagoadditions:geo/songwing.geo.json",
+      "animation": "archipelagoadditions:animations/songwing.animation.json",
+      "saddle": "archipelagoadditions:textures/dragons/songwing/songwing_saddle.png",
+      "texture": "novadragons:textures/dragons/songwing/aurorae.png",
+      "egg_item_name": "entity.iobvariantloader.egg.night_fury.songwing",
+      "egg_name": "entity.iobvariantloader.egg.night_fury.songwing",
+      "dragon_name": "entity.iobvariantloader.night_fury.songwing",
+      "egg_item_model": "archipelagoadditions:songwing_egg",
+      "egg_model": "archipelagoadditions:geo/medium_egg_stego.geo.json",
+      "egg_texture": "archipelagoadditions:textures/dragons/songwing/songwing_egg.png",
+      "nametag_accessible": false
+    },
+    {
+      "name": "celestial",
+      "texture": "novadragons:textures/dragons/woolly_howl/celestial.png",
+      "model": "archipelagoadditions:geo/woolly_howl.geo.json",
+      "animation": "archipelagoadditions:animations/woolly_howl.animation.json",
+      "saddle": "archipelagoadditions:textures/dragons/woolly_howl/woolly_howl_saddle.png",
+      "egg_item_name": "entity.iobvariantloader.egg.night_fury.woolly_howl",
+      "egg_name": "entity.iobvariantloader.egg.night_fury.woolly_howl",
+      "dragon_name": "entity.iobvariantloader.night_fury.woolly_howl",
+      "egg_texture": "archipelagoadditions:textures/dragons/woolly_howl/woolly_howl_egg.png",
+      "egg_item_model": "archipelagoadditions:woolly_howl_egg",
+      "nametag_accessible": false
+    }
+  ]
+}

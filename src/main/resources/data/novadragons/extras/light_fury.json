@@ -1,0 +1,22 @@
+{
+  "extras": [
+    {
+      "name": "astrella",
+      "variant_group": "light_fury",
+      "taming_items": { "tag": ["archipelagoadditions:light_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:light_fury_breeding_food"] }
+    },
+    {
+      "name": "floral_petal",
+      "variant_group": "light_fury",
+      "taming_items": { "tag": ["archipelagoadditions:light_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:light_fury_breeding_food"] }
+    },
+    {
+      "name": "luminara",
+      "variant_group": "light_fury",
+      "taming_items": { "tag": ["archipelagoadditions:light_fury_taming_food"] },
+      "breeding_items": { "tag": ["archipelagoadditions:light_fury_breeding_food"] }
+    }
+  ]
+}
